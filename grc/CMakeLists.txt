@@ -1,3 +1,3 @@
-file(GLOB xml_files "*.xml")
+file(GLOB yml_files "*.yml")
 
-install(FILES ${xml_files} DESTINATION share/gnuradio/grc/blocks )
+install(FILES ${yml_files} DESTINATION share/gnuradio/grc/blocks )
